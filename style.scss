@@ -1,12 +1,22 @@
-$paragraphe: red;
-$width: 150px;
+$height: 600px;
+$width: 800px;
+$color: black;
+$padding: 10px;
 
-p {
-	color: $paragraphe;
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-o-border-radius: $radius;
+	border-radius: $radius;
 }
 
 .test {
+	height: $height;
 	width: $width;
-	height: $width;
-	background-color: $paragraphe;
+	background-color: skyblue;
+	padding: $padding;
+	@include border-radius(20px);
+	p {
+		color: $color;
+	}
 }

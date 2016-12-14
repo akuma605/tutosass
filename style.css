@@ -1,9 +1,13 @@
-p {
-  color: red; }
-
 .test {
-  width: 150px;
-  height: 150px;
-  background-color: red; }
+  height: 600px;
+  width: 800px;
+  background-color: skyblue;
+  padding: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px; }
+  .test p {
+    color: black; }
 
 /*# sourceMappingURL=style.css.map */
