@@ -1,0 +1,12 @@
+$paragraphe: red;
+$width: 150px;
+
+p {
+	color: $paragraphe;
+}
+
+.test {
+	width: $width;
+	height: $width;
+	background-color: $paragraphe;
+}
